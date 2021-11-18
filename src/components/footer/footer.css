@@ -1,0 +1,112 @@
+.f-bg{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15vh;
+    background-color: rgb(189, 52, 52);
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+    
+}
+.f-phone{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+.f-facebook{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+.f-web{
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+
+
+@media screen and (max-width:480px){
+    .f-bg{
+        margin-top: 15px;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+        
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767px){
+    .f-bg{
+        margin-top: 15px;
+        flex-direction: column;
+        height: auto;
+        
+    }
+
+    .logo img{
+        width: 40px;
+        height: 40px;
+        
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .f-bg{
+        margin-top: 15px;
+        flex-direction: row;
+        height: 70px;
+        
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .f-phone{
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+    .f-facebook{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .f-web{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px){
+    .f-bg{
+        margin-top: 15px;
+        flex-direction: row;
+        height: 70px;
+        
+    }
+    .logo img{
+        width: 40px;
+        height: 40px;
+        
+    }
+    .f-phone{
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+    .f-facebook{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+    .f-web{
+        margin-top: 10px;
+        margin-left: 35px;
+    }
+}
